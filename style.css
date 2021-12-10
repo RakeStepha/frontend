@@ -1,0 +1,92 @@
+body{
+    font-family: Arial;
+    font-size: 13px;
+    color:#707070;
+}
+h2{
+    font-size: 20px;
+}
+
+header{
+
+    background-color: green;
+    display: flex;
+    justify-content:space-between;
+
+    
+}
+
+header nav{
+
+    display: flex;
+}
+
+header ul{
+
+    display: flex;
+}
+
+header ul li{
+    
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+}
+
+header ul li:last-child{
+    margin-right: 0;
+    
+}
+
+.home{
+
+color: indigo;
+
+}
+
+.servicio{
+
+    color:fuchsia;
+}
+
+.portafolio{
+
+    color: greenyellow;
+}
+
+.contacto{
+    color: cyan;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 60px;
+}
+
+footer{
+background-color: green;
+color: white;
+padding: 15px 0px;
+display:flex;
+justify-content: space-between;
+
+}
+.footer2{
+
+    color:white;
+}
+.enviar{
+
+  color: green;  
+  margin-top: 48px;
+  margin-bottom: 48px;
+  width: 108px;
+}
+ 
